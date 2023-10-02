@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: " en" }}">
+{%- include head.html -%}
+<style>
+	@import url(/public/css/syntax/{{ site.highlighter-theme }}.css);
+</style>
+<title>{{ site.title }}</title>
+<!-- <link href="/public/css/bootstrap.min.css" rel="stylesheet"> -->
+
+<link href="/public/css/style.css" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<body>
+
+	<!-- 모바일 환경에서만 보여줄 상단바 -->
+	<input type="checkbox" id="menu_chk">
+	<header class="top-bar">
+		<label for="menu_chk" id="menu_icon">
+			<span class="bar"></span>
+			<span class="bar"></span>
+			<span class="bar"></span>
+		</label>
+		<a href="https://kwonjh0406.github.io/">{{ site.title }}</a>
+	</header>
+	<div id="side_menu">
+		<div class="menu_list">
+			{% include menu_list.html %}
+		</div>
+	</div>
+	<script src="script.js"></script>
+	<!-- 모바일 환경에서만 보여줄 상단바 -->
+
+	<div class="container">
+		<div class="sidebar">
+			{% include sidebar.html %}
+		</div>
+		<div class="content">
+			{{ content }}
+		</div>
+	</div>
+</body>
+
+</html>

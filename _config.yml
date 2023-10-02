@@ -1,0 +1,16 @@
+title: 그냥 블로그 # 블로그 이름
+description: 준형 # 블로그 설명 ( 블로그 이름 아래 위치 )
+email: kwonjh0406@gmail.com # 이메일
+github_username: kwonjh0406 # GitHub 사용자 이름
+future: true # 글을 쓴 시점 상관없이 포스팅 되게 하기 위함
+highlighter: rouge
+svg:
+  optimize: true
+highlighter-theme: monokai
+date_format: "%Y-%M-%D"
+plugins:
+  - jekyll-feed
+category_dir: category/
+tag_dir: tag/
+
+
