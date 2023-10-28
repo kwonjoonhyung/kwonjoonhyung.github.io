@@ -42,7 +42,7 @@ body {
 
 a {
 	text-decoration: none;
-	color: #007bff;
+	color: #3376CD;
 }
 
 a:hover {
@@ -366,7 +366,7 @@ article.home h4 a:hover {
 
 header.post-header {
 	padding: 50px 0px 10px 0px;
-	border-bottom: 2px solid #6DB33F;
+	border-bottom: 2px solid #2A2A2A;
 	text-align: center;
 }
 
