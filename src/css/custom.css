@@ -19,6 +19,11 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'LINESeed' !important;
 }
 
+.footer {
+  background-color: transparent;
+  color: gray;
+}
+
 :root {
   --ifm-color-primary: #2e8555;
   --ifm-color-primary-dark: #29784c;
