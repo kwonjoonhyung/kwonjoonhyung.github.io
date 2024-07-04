@@ -5,6 +5,20 @@
  */
 
 /* You can override the default Infima variables here. */
+
+@font-face {
+  font-family: 'LINESeed';
+  src: url(/static/font/LINESeedKR-Rg.woff2) format('woff2');
+}
+
+body {
+  font-family: 'LINESeed' !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'LINESeed' !important;
+}
+
 :root {
   --ifm-color-primary: #2e8555;
   --ifm-color-primary-dark: #29784c;
