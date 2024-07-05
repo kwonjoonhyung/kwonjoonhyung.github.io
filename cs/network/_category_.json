@@ -1,4 +1,8 @@
 {
-  "label": "HTTP",
-  "position": 1
+  "label": "네트워크",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "5 minutes to learn the most important Docusaurus concepts."
+  }
 }
